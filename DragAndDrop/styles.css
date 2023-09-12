@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://wallpaperaccess.com/full/1216895.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* background-color: rgb(41, 98, 150); */
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.col-header {
+    width: 150px;
+    box-shadow: 0px 4px 10px rgb(45, 49, 54);
+    border-radius: 20px;
+    padding: 0.8rem 1rem;
+    color: rgb(209, 209, 209);
+}
+
+.item {
+    width: 150px;
+    height: 66px;
+    border: 1px solid rgb(209, 209, 209);
+    box-shadow: 0px 0px 25px rgb(63, 147, 144);
+    background: rgb(17, 105, 87);
+    border-radius: 20px;
+    padding: 0.8rem 1rem;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    cursor: grab;
+    border: none;
+}
+
+.item:active {
+    cursor: grabbing;
+    box-shadow: 0px 0px 25px rgb(137, 147, 63);
+    transition: box-shadow 0.3s;
+}
+
+.placeholder {
+    width: 150px;
+    height: 66px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.start {
+    background: linear-gradient(90deg, rgb(85, 150, 126) 0%, rgb(37, 94, 187) 120.25%);
+}
+
+.progress {
+    background: linear-gradient(90deg, rgb(37, 94, 187) 0%, rgb(139, 28, 139) 180%);
+}
+
+.done {
+    background: linear-gradient(90deg, rgb(119, 35, 192) 0%, rgb(163, 30, 30) 130%);
+}
+
+.hold {
+    box-shadow: 0px 0px 25px rgb(137, 147, 63);
+
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    /* border-top: 2px solid violet; */
+    box-shadow: 0px 0px 25px #95f1df2d;
+    background-color: #95f1df1d;
+    transform: scale(1.05);
+}
+
