@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,400;1,600&family=Great+Vibes&family=Handjet:wght@200;300;700&display=swap');
+
+body {
+    background: url(calculator_wall.png) no-repeat fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 125px;
+    font-family: handjet;
+    font-weight: 700;
+    font-size: 90px;
+    color: rgb(19, 154, 1);
+    letter-spacing: 25px;
+    text-shadow: 4px 4px 6px rgba(97, 233, 97, 0.803);
+}
+
+.form-control {
+    text-align: center; 
+    background-color: rgba(61, 55, 55, 0.679);
+    color: rgb(19, 154, 1);
+    border-style: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 25px;
+}
+
+.block_input {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10px;
+    font-family: 'Handjet';
+    position: static;
+}
+
+.button-success,
+.button-danger {
+    text-align: center;
+    font-size: 30px;
+    border: 0;
+    padding: 4px 55.5px 4px 55.5px;
+    border-radius: 5px;
+}
+
+#multiplication {
+    margin-right: 50px;
+    padding-right: 62px;
+}
+
+#division {
+    margin-left: 0;
+}
+
+.d-flex {
+    text-align: center;
+    margin: 40px 200px 40px 200px;
+    outline: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.button-success {
+    margin-right: 50px;
+    background-color: rgb(1, 168, 1);
+    transition: 0.1s;
+}
+
+.button-success:hover {
+    box-shadow: 0px 0px 44px 4px rgb(145, 247, 145);
+    transform: scale(1.05);
+}
+
+.button-danger {
+    background-color: rgb(168, 1, 1);
+    transition: 0.1s;
+}
+
+.button-danger:hover {
+    box-shadow: 0px 0px 44px 4px rgb(247, 145, 145);
+    transform: scale(1.05);
+}
+
+.button-outline-info {
+    text-align: center;
+    font-size: 30px;
+    border: 0;
+    padding: 4px 100px 4px 100px;
+    border-radius: 5px;
+}
+
+.block_calculate {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submit {
+    font-family: 'Handjet';
+    font-size: 700;
+}
+
+#submit:hover {
+    background-color: rgb(19, 154, 1);
+}
+
+.text-bg-light {
+    background-color: rgba(255, 255, 255, 0.01);
+    text-align: center;
+    color: rgb(19, 154, 1);
+    font-size: 50px;
+    font-family: 'Handjet';
+}
+
+.text-bg-light h4 {
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+#result {
+    font-size: 100px;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.416);
+    border: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="mini_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>JS Base</title>
+    <script src="app.js" defer></script>
+    <script src="theory.js" defer></script>
+</head>
+<body class="bg-dark text-light">
+    <div class="container w-50 pt-5" >
+        <h1>Calculator</h1>
+        <div class="block_input">
+            <input 
+                type="number"
+                class="form-control mb-2"
+                placeholder="Введите 1-е число"
+                id="input1"
+                
+            />
+            <input 
+                type="number"
+                class="form-control mb-2"
+                placeholder="Введите 2-е число"
+                id="input2"
+                        
+            />
+        </div>
+        <div class="d-flex mb-2">
+            <button class="button button-success flex-grow-1 mx-2" id="plus">+</button>
+            <button class="button button-danger flex-grow-1 mx-2" id="minus">-</button>
+            <p><button class="button button-success flex-grow-1 mx-2" id="multiplication">*</button>
+            <button class="button button-danger flex-grow-1 mx-2" id="division">/</button></p>
+        </div>
+        <div class="block_calculate">
+            <button class="button button-outline-info w-100 mb-2" id="submit">Calculate</button>
+        </div>
+        <div class="text-bg-light p-3 text-center">
+            <h4>Result:</h4>
+            <p id="result" class="mb-0">-</p>
+        </div>
+    </div>
+</body>
+</html>
