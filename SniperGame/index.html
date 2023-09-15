@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Training | Project 5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>Aim Training</h1>
+        <a href="#" class="start" id="start">Начать игру</a>
+    </div>
+    <div class="end-screen">
+        <div class="screen">
+            <h1>Выберите время</h1>
+            <ul class="time-list" id="time-list">
+                <li>
+                    <button class="time-button" data-time="10">10 сек</button>
+                </li>
+                <li>
+                    <button class="time-button" data-time="20">20 сек</button>
+                </li>
+                <li>
+                    <button class="time-button" data-time="30">30 сек</button>
+                </li>
+                <li>
+                    <button class="time-button" data-time="60">60 сек</button>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="screen">
+            <a href="#" class="stop-game" id="stop-game">Остановить игру</a>
+            <a href="#" class="repeat" id="repeat">Заново</a>
+            <h3>Осталось <span id="time">00:00</span></h3>
+            <div class="board" id="board"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
